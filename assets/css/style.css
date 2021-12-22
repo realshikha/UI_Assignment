@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    font-family: "QuickSand","QuickSand-R";
+}
+.h1 {
+    font-size: 45px;
+    line-height: 1;
+    color: #fff;
+}
+.h2 {
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 0;
+}
+.h4 {
+    font-size: 25px;
+    color: #fff;
+}
+.h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 0;
+}
+.clear { clear: both; }
+nav {
+    background: #fff;
+    min-height: 90px;
+    padding: 0 30px;
+    overflow: hidden;
+}
+.right-nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+    position: relative;    
+}
+.right-nav button {
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    background: none;
+    margin-right: 60px;
+}
+.right-nav button::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #000;
+    margin-left: 5px;
+    top: 10px;
+    clear: both;
+}
+.logo {
+    display: inline-block;
+    width: 214px;
+    height: 99px;
+    background: url('../img/skidos-logo.png') no-repeat;
+    float: left;
+    background-size: cover;
+}
+.hero-banner {
+    background: url('../img/banner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 10% 0%;
+    height: 550px;
+    margin: auto;
+}
+.hero-banner .left-section {
+    float: left;
+    width: 45%;
+}
+.hero-banner .right-section {
+    width: 45%;
+    float: right;
+}
+.hero-banner img {
+    max-width: 100%;
+}
+.btn-orange {
+    font-size: 18px;
+    font-family: "QuickSand";
+    padding: 15px 60px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #f60;
+    box-shadow: 0 6px 2px #dd5201;
+    text-decoration: none;
+    font-weight: 700;
+}
+.btn-max {
+    padding: 18px 95px;
+    font-size: 22px;
+}
+.why-skidos {
+    padding: 0 15%;
+}
+.device-content {
+    padding: 0 08%;
+}
+.why-skidos .left-block, .device-content .left-block {
+    width: 50%;
+    float: left;
+}
+.why-skidos .right-block, .device-content .right-block {
+    float: right;
+    width: 50%;
+}
+.why-skidos p {
+    font-size: 18px;
+    margin: 0;
+}
+.device-content p {
+    font-size: 20px;
+    margin: 100px 20px 25px 20px;
+}
+.device-content img {
+    width: 95%;
+    margin-right: 5%;
+}
+.divider_y {
+    height: 5px!important;
+    width: 6em;
+    border-radius: 50%;
+    background: #fcd12a!important;
+    margin: 15px auto;
+    margin-bottom: 30px;
+}
+.mean-time {
+    margin: 50px 12%;
+    background: url('../img/char1.png');
+    background-repeat: no-repeat;
+    background-position: 90% 95%;
+    background-size: 24%;
+    padding: 0 25px;
+}
+.check-list {
+    position: relative;
+    display: inline-grid;
+    width: 30%;
+}
+.check-list li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.check-list li::before{
+    content: '';
+    width: 32px;
+    height: 32px;
+    background: url(../img/list-check.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 2px;
+}
+.card-box {
+    text-align: center;
+}
+.card-box .price-card {
+    width: 315px;
+    height: 430px;
+    background: url('../img/package_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+.card-box .price-details::after {
+    content: '';
+    border-top: 1px dashed #fff;
+    width: 70%;
+    position: absolute;
+    left: 40px;
+    bottom: 100px;
+}
+.price-card .title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    padding-top: 45px;
+}
+.price-card .price {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 0;
+}
+.price-card .trial {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 10px;
+}
+.price-card .price-details {
+    font-size: 18px;
+}
+.price-card .price-details span {
+    color: #fff;
+    background-color: #00c6a3;
+    border: none;
+    border-radius: 50%;
+    padding: 6px;
+    font-weight: 600;
+}
+.price-card .btn-orange {
+    margin-top: 15px;
+    display: inline-block;
+}
+.pass-details, .reviews, .reward {
+    text-align: center;
+    margin: 65px 10%;
+}
+.pass-details ul {
+    text-align: left;
+    width: 28%;
+}
+.reviews .left-block {
+    float: left;
+}
+.reviews .left-block, .reviews .right-block {
+    width: 50%;
+    display: inline-block;
+}
+.review h3 {
+    color: #01d3b6;
+    font-size: 24px;
+}
+.review p {
+    font-size: 18px;
+}
+.review .fa-star {
+    color: yellow;
+}
+.reward img {
+    width: 230px;
+}
+.ribbon {
+    position: absolute;
+    top: 20px;
+    width: 85%;
+    text-align: center;
+    left: 15px;
+    background: #d10085;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 30px;
+}
+.ribbon.rec {
+    background: #9100da;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li, footer ul li a {
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+}
+footer ul li a {
+    margin-right: 0;
+}
