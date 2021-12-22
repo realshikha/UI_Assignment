@@ -315,7 +315,7 @@ footer ul li a {
      
 }
 
-@media screen {
+@media screen and (min-width: 220px) {
     .reviews .left-block {
         float: none; 
     }
