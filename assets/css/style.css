@@ -307,17 +307,7 @@ footer ul li a {
 }
 
 /***********Media query for orange bar***************/
-@media screen and (min-width: 220px) {
-    .btn-max {
-        padding: 15px 85px;
-        font-size: medium;
-    }
-     
-}
 
-@media screen and (min-width: 220px) {
-    .reviews .left-block {
-        float: none; 
-    }
-}
 
+
+}
