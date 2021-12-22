@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: "QuickSand","QuickSand-R";
 }
+/************ CSS for all the heading tags *********/
 .h1 {
     font-size: 45px;
     line-height: 1;
@@ -23,7 +24,13 @@ body {
     font-weight: 300;
     line-height: 0;
 }
+/********* CSS for heading tag ended *************/
+
+
 .clear { clear: both; }
+
+
+/********** CSS for navigation *******************/
 nav {
     background: #fff;
     min-height: 90px;
@@ -55,6 +62,12 @@ nav {
     top: 10px;
     clear: both;
 }
+
+
+
+/********************CSS for skidos logo*****************/
+
+
 .logo {
     display: inline-block;
     width: 214px;
@@ -63,6 +76,9 @@ nav {
     float: left;
     background-size: cover;
 }
+
+
+/********************CSS for banner section***********************/
 .hero-banner {
     background: url('../img/banner_bg.png');
     background-repeat: no-repeat;
@@ -97,6 +113,9 @@ nav {
     padding: 18px 95px;
     font-size: 22px;
 }
+
+
+/******************CSS for "why-skidos" section*************/
 .why-skidos {
     padding: 0 15%;
 }
@@ -123,6 +142,8 @@ nav {
     width: 95%;
     margin-right: 5%;
 }
+
+/*********** CSS for common line under each header *********************/
 .divider_y {
     height: 5px!important;
     width: 6em;
@@ -131,6 +152,8 @@ nav {
     margin: 15px auto;
     margin-bottom: 30px;
 }
+
+/****************CSS for "meaningful screen time" section*******************/
 .mean-time {
     margin: 50px 12%;
     background: url('../img/char1.png');
@@ -160,6 +183,10 @@ nav {
     background-size: cover;
     left: 2px;
 }
+
+
+/***************CSS for "Our learning package" section*************/
+
 .card-box {
     text-align: center;
 }
@@ -221,6 +248,9 @@ nav {
     text-align: left;
     width: 28%;
 }
+
+/**************CSS for reviews section***************/
+
 .reviews .left-block {
     float: left;
 }
@@ -241,6 +271,8 @@ nav {
 .reward img {
     width: 230px;
 }
+
+/***************CSS for ribbon over price details card****************/
 .ribbon {
     position: absolute;
     top: 20px;
@@ -257,6 +289,9 @@ nav {
 .ribbon.rec {
     background: #9100da;
 }
+
+
+/*************CSS for footer section**************/
 footer ul {
     list-style-type: none;
 }
